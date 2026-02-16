@@ -5,29 +5,30 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+Este projeto tem o foco para ajudar pessoas que contenham dificuldades financeiras. 
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+Um agente educativo que explica conceitos fincanceiros de forma simples, usando os dados do cliente.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas iniciantes em finanças que queiram aprender a organizar seus gastos.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+Biro AI
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+Amigavel e conselheiro
+Sempre tomando as melhores decisões financeiras 
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
@@ -35,7 +36,7 @@
 [Sua descrição aqui]
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
+- Saudação: [ex: "Opa! Sou o Biro, como vai? Posso te ajudar com suas finanças?"]
 - Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
 - Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
 
@@ -59,10 +60,10 @@ flowchart TD
 
 | Componente | Descrição |
 |------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Interface | [Streamlit] |
+| LLM | [Ollama] |
+| Base de Conhecimento | JSON/CSV] |
+| Validação | [Checagem de alucinações] |
 
 ---
 
@@ -70,12 +71,13 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [ ] [Somente dados fornecidos pelo usuario]
+- [ ] [Não recomenda investimentos específicos]
+- [ ] [Vai dizer quando não souber uma resposta]
+- [ ] [Foco em edcucar o cliente.]
 
 ### Limitações Declaradas
 > O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- NÃO te indica investimentos
+- NÃO acessa seus dados
